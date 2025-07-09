@@ -7,7 +7,6 @@ from storage import save_data, load_data
 def main():
     """Main loop for handling user commands."""
     
-    # book = AddressBook()
     book = load_data()
     print("Welcome to your assistant bot!")
 
